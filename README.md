@@ -1,11 +1,9 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-2.3-000000?logo=flask&logoColor=white)
 
-# AI Research Assistant
+# DocVault
 
 A personal document vault with a hand-built multi-strategy search engine and encrypted, password-protected sharing links.
-
-> **Note on the repository name:** despite being named `Distributed-File-System`, this is a single-process Flask application backed by SQLite or PostgreSQL — not a distributed system. The README below describes what the code actually does.
 
 Upload research files, and the app extracts and indexes their text (including OCR for images) so you can find them again later — by filename, tag, summary, or full content — using one of three search algorithms implemented from scratch. Documents can also be shared externally through time-limited, download-capped links protected by a password, without ever exposing the underlying file path.
 
@@ -38,8 +36,8 @@ Upload research files, and the app extracts and indexes their text (including OC
 ### Installation
 
 ```bash
-git clone https://github.com/DharambirAgrawal/Distributed-File-System.git
-cd Distributed-File-System/ai_research_assistant
+git clone https://github.com/DharambirAgrawal/DocVault.git
+cd DocVault/ai_research_assistant
 pip install -r requirements.txt
 ```
 
